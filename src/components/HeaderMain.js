@@ -5,19 +5,19 @@ import { FiHeart } from "react-icons/fi";
 import { HiOutlineShoppingBag } from "react-icons/hi";
 const HeaderMain = () => {
     return (
-        <div className="border-b border-gray-200 py-6">
-            <div className="container sm: flex justify-between items-center">
-                <div className="font-bold text-4xl text-center pb-4 sm: pb-0 text-blackish">
-                    Sick
+        <div className="py-6 border-b border-gray-200">
+            <div className="container flex items-center justify-between sm:">
+                <div className="pb-0 pb-4 text-4xl font-bold text-center sm: text-blackish">
+                    LifeStyle
                 </div>
                 <div className="w-full sm:w-[300px] md:w-[70%] relative">
                     <input
-                        className="border-gray-200 border p-2 px-4 rounded-lg w-full"
+                        className="w-full p-2 px-4 border border-gray-200 rounded-lg"
                         type="text"
                         placeholder="Enter any product name..."
                     />
                     <BsSearch
-                        className="absolute right-0 top-0 mr-3 mt-3 text-gray-400"
+                        className="absolute top-0 right-0 mt-3 mr-3 text-gray-400"
                         size={20}
                     />
                 </div>

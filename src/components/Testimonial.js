@@ -10,8 +10,8 @@ const Testimonial = () => {
             <div className="grid p-6 border border-gray-400 rounded-2xl place-items-center lg:p-0">
                 <div className="flex flex-col items-center gap-1 text-center">
                     <Image  className="inline-block rounded-full" src="/user.jpg" width={80} height={80} alt="profile"/>
-                    <h2 className="text-gray-500 font-black text-[20px]">Abc</h2>
-                    <p>CEO & Founder</p>
+                    <h2 className="text-gray-500 font-black text-[20px]">Gauri</h2>
+                    <p>CEO of LifeStyle</p>
                     <Image className="inline-block py-2" src="/quotes.svg" width={30} height={30} alt="Quotes"/>
                     <p className="max-w-[200px]  text-gray-500">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit enim eveniet corrupti. .</p>
                 </div>
