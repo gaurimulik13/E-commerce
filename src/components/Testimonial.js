@@ -13,7 +13,7 @@ const Testimonial = () => {
                     <h2 className="text-gray-500 font-black text-[20px]">Gauri</h2>
                     <p>CEO of LifeStyle</p>
                     <Image className="inline-block py-2" src="/quotes.svg" width={30} height={30} alt="Quotes"/>
-                    <p className="max-w-[200px]  text-gray-500">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit enim eveniet corrupti. .</p>
+                    <p className="max-w-[200px]  text-gray-500">Discover the ultimate destination for all your fashion needs at Lifestyle! Our website offers a wide range of trendy clothing, stylish accessories, and must-have footwear for every occasion. With a user-friendly interface and seamless shopping experience, finding your perfect outfit has never been easier. . .</p>
                 </div>
             </div>
             <div className="bg-red-600 bg-[url(/cta-banner.jpg)] bg-cover h-[500px] rounded-2xl grid place-items-center">
